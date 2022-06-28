@@ -1,0 +1,97 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background: rgb(197, 200, 122);
+  background: radial-gradient(
+    circle,
+    rgba(197, 200, 122, 1) 0%,
+    rgba(148, 223, 233, 1) 100%
+  );
+}
+.container {
+  border: 5px solid black;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #b1d0e0;
+}
+
+/*--------------------------------- header--------------------------------------------- */
+.box1 {
+  text-align: center;
+
+  margin: 0px 0px;
+}
+hr {
+  border: 2px solid rgb(0, 0, 0);
+}
+h1 {
+  margin: 0px;
+  font-size: 40px;
+}
+
+/*-------------------------------------- uder info ------------------------------------*/
+.box2 {
+  margin: 5px;
+  /* background-color: rgb(118, 118, 255); */
+  padding: 3px;
+}
+.label {
+  padding: 4px;
+  width: 40%;
+}
+label {
+  font-size: larger;
+  font-weight: bold;
+}
+fieldset {
+  background-color: #6998ab;
+  border: 3px solid black;
+}
+h3 {
+  font-family: "Roboto Slab", serif;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 22px;
+  font-weight: bolde;
+  padding: 3px;
+}
+.text {
+  border: 1px solid black;
+  padding: 4px;
+}
+.info {
+  margin: 10px;
+}
+input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 7px;
+  font-size: 15px;
+}
+
+/* ---------------------------------card info---------------------------------------------- */
+.box3 {
+  margin: 5px;
+}
+.date {
+  width: 75px;
+  border: 1px solid black;
+}
+
+/*------------------------------------- button ----------------------------------------------*/
+.btn {
+  margin-top: 8px;
+  border: 3px solid black;
+  width: 100%;
+  font-size: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(145, 143, 143);
+}

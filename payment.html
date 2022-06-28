@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="payment.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <title>Payment</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <form action="">
+        <div class="box1">
+          <h1>Payment</h1>
+        </div>
+        <hr />
+        <div class="box2">
+          <fieldset>
+            <legend>
+              <h3>User information</h3>
+            </legend>
+            <div class="label">
+              <div class="info">
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  required
+                  id="name"
+                  class="text"
+                  placeholder="Name"
+                />
+              </div>
+              <div class="info">
+                <label for="no">Contact No:</label>
+                <input
+                  type="text"
+                  required
+                  id="no"
+                  class="text"
+                  placeholder="Enter 10 digit number"
+                />
+              </div>
+              <div class="info">
+                <label for="mail">E-mail:</label>
+                <input
+                  type="text"
+                  required
+                  id="mail"
+                  class="text"
+                  placeholder="example@gmail.com"
+                />
+              </div>
+              <div class="info">
+                <label for="gender">Gender:</label><br />
+                Male<input type="radio" id="gender" name="gender" /> <br />
+                Female <input type="radio" id="gender" name="gender" /> <br />
+                Other <input type="radio" id="gender" name="gender" />
+              </div>
+              <div class="info">
+                <label for="add">Address:</label><br />
+                <textarea
+                  name="add"
+                  id="add"
+                  cols="30"
+                  rows="5"
+                  class="text"
+                ></textarea>
+              </div>
+              <div class="info">
+                <label for="pincode">Pin Code:</label><br />
+                <input
+                  type="text"
+                  required
+                  id="pincode"
+                  class="text"
+                  placeholder="Number"
+                />
+              </div>
+            </div>
+          </fieldset>
+        </div>
+
+        <div class="box3">
+          <fieldset>
+            <legend>
+              <h3>Card information</h3>
+            </legend>
+
+            <div class="card">
+              <label for="c-name">Holder Name:</label><br />
+              <input
+                type="text"
+                required
+                id="c-name"
+                class="text"
+                placeholder="Name"
+              />
+            </div>
+            <div class="card">
+              <label for="c-no">Card Number:</label><br />
+              <input
+                type="text"
+                required
+                id="c-no"
+                class="text"
+                placeholder="1234-5678-963"
+              />
+            </div>
+            <div class="card">
+              <label for="e-date">Expiration Date:</label><br />
+              <input
+                type="text"
+                name="mo"
+                id="mo"
+                class="date"
+                placeholder="Month"
+                required
+              />
+              <input
+                type="text"
+                name="year"
+                id="year"
+                class="date"
+                placeholder="Year"
+                required
+              />
+            </div>
+            <div class="card">
+              <label for="cvv">CVV:</label><br />
+              <input
+                type="text"
+                required
+                id="CVV"
+                class="text"
+                placeholder="123"
+              />
+            </div>
+          </fieldset>
+          <button class="btn"><strong>Pay Now</strong></button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
